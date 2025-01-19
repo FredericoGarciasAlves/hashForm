@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="global.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>HashForms</title>
+    </head>
+    <body>
+        <main class="main">
+            <div class="images">
+                <img
+                    src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121793047x871980606331503000%2Foie_transparent.png?w=32&amp;h=45&amp;auto=compress&amp;dpr=1&amp;fit=max"
+                />
+                <img
+                    src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121799406x669791932198187400%2Foie_transparent%2520%25281%2529-fotor-202408089554.png?w=96&amp;h=28&amp;auto=compress&amp;dpr=1&amp;fit=max"
+                />
+            </div>
+            <section class="meus-dados">
+                <h2 class="titulo-meus-dados">
+                    <i class="bx bx-user-circle"></i> Meus Dados
+                </h2>
+                <p class="confirme-dados">
+                    Confirme seus dados. Eles aparecerão em sua nota fiscal.
+                </p>
+                <form id="form">
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="box-inputs">
+                            <label for="nome">Nome:</label>
+                            <input
+                                type="text"
+                                placeholder="Digite seu nome"
+                                id="nome"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="CPF">CPF:</label>
+                            <input
+                                type="number"
+                                placeholder="Digite seu CPF"
+                                id="CPF"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="telefone">Telefone:</label>
+                            <input
+                                type="number"
+                                placeholder="Digite seu telefone"
+                                id="telefone"
+                            />
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <div class="box-inputs">
+                            <label for="CEP">CEP:</label>
+                            <input
+                                type="number"
+                                placeholder="Digite seu CEP"
+                                id="CEP"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="rua">Rua:</label>
+                            <input
+                                type="text"
+                                placeholder="Digite seu rua"
+                                id="rua"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="numero">Número:</label>
+                            <input
+                                type="number"
+                                placeholder="Número da casa"
+                                id="numero"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="complemento">Complemento:</label>
+                            <input
+                                type="text"
+                                placeholder="Complemento"
+                                id="complemento"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="bairro">Bairro:</label>
+                            <input
+                                type="text"
+                                placeholder="Digite seu bairro"
+                                id="bairro"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="cidade">Cidade:</label>
+                            <input
+                                type="text"
+                                placeholder="Digite sua cidade"
+                                id="cidade"
+                            />
+                        </div>
+
+                        <div class="box-inputs">
+                            <label for="estado">Estado:</label>
+                            <input
+                                type="text"
+                                placeholder="Digite seu estado"
+                                id="estado"
+                            />
+                        </div>
+                    </fieldset>
+
+                    <button class="btn-submit" type="submit">AVANÇAR</button>
+                </form>
+            </section>
+            <section class="resumo">
+                <h2><i class="bx bx-receipt"></i> Resumo</h2>
+                <div class="preco">
+                    <p>Black Friday - Lote 01: R$ 1.200,00</p>
+                    <p>Total: 12x R$ 100,00 ou R$ 1.200,00 à vista</p>
+                </div>
+                <div class="aplicar-cupom-desconto">
+                    <div class="aplicar-cupom-desconto-cabecalho">
+                        <p>Aplicar cupom de desconto</p>
+                        <i class="bx bxs-chevron-down"></i>
+                    </div>
+                    <div
+                        class="aplicar-cupom-desconto-corpo"
+                        style="display: block"
+                    >
+                        <input
+                            type="text"
+                            id="input-desconto"
+                            placeholder="Digite seu cupom"
+                        />
+                        <button type="button">APLICAR</button>
+                    </div>
+                    <p>Preço Total: R$1200.00</p>
+                    <div class="caixa-icon">
+                        <i class="bx bxl-mastercard"></i>
+                        <i class="bx bxl-visa"></i>
+                        <i class="bx bxl-paypal"></i>
+                        <i class="bx bx-barcode"></i>
+                    </div>
+                </div>
+                <h2 class="garantia">Você tem 15 dias de garantia</h2>
+                <p class="texto-experimente">
+                    Experimente! Se não gostar ou ver que não tem utilidade para
+                    você, devolvemos o seu dinheiro! Boas compras.
+                </p>
+                <p class="texto-informacoes">
+                    <i class="bx bx-check-shield"></i> Suas informações estão
+                    seguras
+                </p>
+                <img
+                    id="img-seguranca"
+                    src="./assets/images/safe.jpg"
+                    alt="Imagem de um carrinho de segurança com icones de segurança em sua volta"
+                />
+            </section>
+            <p class="termo-politica">
+                <a href="#">Termos de Uso</a> |
+                <a href="#">Política de Provacidade</a>
+            </p>
+        </main>
+    </body>
+</html>
