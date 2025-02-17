@@ -1,0 +1,256 @@
+@media (max-width: 1440px) {
+    .main {
+        grid-template-columns: repeat(3, 35.75rem);
+        padding: 2rem;
+        column-gap: 2.5rem;
+        width: 144rem;
+    }
+    .main .meus-dados #form fieldset .box-inputs {
+        width: 65.15rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .main .meus-dados #form fieldset .box-inputs label {
+        margin-right: 1rem;
+    }
+
+    .main .meus-dados #form fieldset .box-inputs input {
+        width: 57.2rem;
+        height: 3rem;
+        background-color: #434343;
+        border: 1px solid #555;
+        border-radius: 0.5rem;
+        padding-left: 1rem;
+        color: #fff;
+    }
+
+    .main .meus-dados #form .btn-submit {
+        width: 66.15rem;
+    }
+
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        #input-desconto {
+        width: 32.7rem;
+        height: 3rem;
+        padding-left: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        color: #fff;
+    }
+    .main .resumo .aplicar-cupom-desconto .caixa-icon {
+        width: 32.7rem;
+    }
+
+    .main .resumo .texto-informacoes {
+        width: 32.7rem;
+    }
+
+    .main .resumo img {
+        width: 32.7rem;
+    }
+}
+@media (max-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(3, 31.13rem);
+        width: 102.4rem;
+    }
+
+    .main .meus-dados .titulo-meus-dados {
+        font-size: 2.5rem;
+    }
+    .main .meus-dados .titulo-meus-dados .bx-user-circle {
+        font-size: 2.5rem;
+    }
+
+    .main .meus-dados #form fieldset .box-inputs {
+        width: 56.6rem;
+    }
+
+    .main .meus-dados #form fieldset .box-inputs input {
+        margin-right: 1rem;
+    }
+
+    .main .meus-dados #form .btn-submit {
+        width: 61.2rem;
+    }
+
+    .main .resumo .titulo-resumo {
+        font-size: 2.5rem;
+    }
+
+    .main .resumo .titulo-resumo .bx-receipt {
+        font-size: 2.5rem;
+    }
+
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        #input-desconto {
+        width: 28rem;
+    }
+
+    .main .resumo .aplicar-cupom-desconto .caixa-icon {
+        width: 28rem;
+    }
+
+    .main .resumo .garantia {
+        font-size: 2.5rem;
+    }
+
+    .main .resumo .texto-informacoes {
+        width: 28rem;
+    }
+
+    .main .resumo img {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: repeat(3, 22.6rem);
+        width: 76.8rem;
+    }
+    .main .meus-dados .titulo-meus-dados {
+        font-size: 2rem;
+    }
+
+    .main .meus-dados .titulo-meus-dados .bx-user-circle {
+        font-size: 2rem;
+    }
+    .main .meus-dados #form fieldset .box-inputs {
+        width: 38.2rem;
+    }
+
+    .main .meus-dados #form .btn-submit {
+        width: 40rem;
+    }
+
+    .main .resumo .titulo-resumo {
+        font-size: 2rem;
+    }
+
+    .main .resumo .titulo-resumo .bx-receipt {
+        font-size: 2rem;
+    }
+
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        #input-desconto {
+        width: 19.7rem;
+    }
+
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        button {
+        width: 10rem;
+    }
+
+    .down {
+        margin-bottom: 2rem;
+    }
+
+    .iconUp {
+        margin-bottom: 2rem;
+    }
+
+    .main .resumo .aplicar-cupom-desconto .caixa-icon {
+        width: 20rem;
+    }
+
+    .main .resumo .garantia {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .main .resumo .texto-experimente {
+        margin-bottom: 1rem;
+    }
+
+    .main .resumo .texto-informacoes {
+        width: 20rem;
+    }
+
+    .main .resumo img {
+        width: 19.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .main {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        width: 37.5rem;
+        row-gap: 2rem;
+    }
+
+    .main .images {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .main .meus-dados {
+        grid-area: 2 / 1 / 3 / 2;
+        width: 33.5rem;
+    }
+    .main .resumo {
+        grid-area: 3 / 1 / 4 / 2;
+        padding: 4rem;
+        width: 33.5rem;
+    }
+
+    .main .termo-politica {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .main .meus-dados #form fieldset .box-inputs {
+        width: 25rem;
+    }
+    .main .meus-dados #form .btn-submit {
+        width: 25.8rem;
+    }
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        #input-desconto {
+        width: 26.7rem;
+    }
+    .main
+        .resumo
+        .aplicar-cupom-desconto
+        .aplicar-cupom-desconto-corpo-block
+        button {
+        width: 17rem;
+    }
+
+    .down {
+        margin-bottom: 0;
+    }
+
+    .iconUp {
+        margin-bottom: 0;
+    }
+
+    .main .resumo .aplicar-cupom-desconto .caixa-icon {
+        width: 27rem;
+    }
+
+    .main .resumo .texto-informacoes {
+        width: 26rem;
+    }
+    .main .resumo img {
+        width: 26rem;
+    }
+}

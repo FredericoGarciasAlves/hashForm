@@ -9,6 +9,7 @@
         />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="global.css" />
+        <link rel="stylesheet" href="responsivo.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -136,28 +137,35 @@
                 </form>
             </section>
             <section class="resumo">
-                <h2><i class="bx bx-receipt"></i> Resumo</h2>
+                <h2 class="titulo-resumo">
+                    <i class="bx bx-receipt"></i> Resumo
+                </h2>
                 <div class="preco">
-                    <p>Black Friday - Lote 01: R$ 1.200,00</p>
-                    <p>Total: 12x R$ 100,00 ou R$ 1.200,00 à vista</p>
+                    <p class="black-friday">
+                        Black Friday - Lote 01: R$ 1.200,00
+                    </p>
+                    <p class="total">
+                        Total: 12x R$ 100,00 ou R$ 1.200,00 à vista
+                    </p>
                 </div>
                 <div class="aplicar-cupom-desconto">
                     <div class="aplicar-cupom-desconto-cabecalho">
-                        <p>Aplicar cupom de desconto</p>
-                        <i class="bx bxs-chevron-down"></i>
+                        <p id="aplicar-cupom-desconto">
+                            Aplicar cupom de desconto
+                        </p>
+                        <i class="bx bxs-chevron-down down"></i>
                     </div>
-                    <div
-                        class="aplicar-cupom-desconto-corpo"
-                        style="display: block"
-                    >
+                    <div class="aplicar-cupom-desconto-corpo-none">
                         <input
                             type="text"
                             id="input-desconto"
                             placeholder="Digite seu cupom"
                         />
-                        <button type="button">APLICAR</button>
+                        <button type="button" id="btn-aplicar-desconto">
+                            APLICAR
+                        </button>
                     </div>
-                    <p>Preço Total: R$1200.00</p>
+                    <p class="preco-total">Preço Total: R$1200.00</p>
                     <div class="caixa-icon">
                         <i class="bx bxl-mastercard"></i>
                         <i class="bx bxl-visa"></i>
@@ -185,5 +193,6 @@
                 <a href="#">Política de Provacidade</a>
             </p>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
